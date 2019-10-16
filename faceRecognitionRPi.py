@@ -16,7 +16,7 @@ import cv2
 from imutils import paths
 import os
 
-# load the known faces and embeddings along with OpenCV's Haar
+# load the known faces and embeddings along with OpenCV's Haar Detection XML
 # open cv haarcascade for face detection
 data_folder="dataset/"
 imagePaths = list(paths.list_images(data_folder))
